@@ -96,6 +96,30 @@
 
 ---
 Желаемая схема. Расположение элементов на схеме - приблизительное. Возможна корректировка исходя из особенностей допустимой разводки элементов на плате.
+Описание разъемов референсной платы, которые остаются в новой версии (оригинальная плата SqueezeAMP):
+J3: main header
+- GND
+- 3.3V output
+- TX (35) IO1
+- RX (34) IO3
+- EN/reset (3) ==> connect to RTS if possible
+- Boot (25) IO0 ==> pull down at reset to enter download mode (connect to DTR if possible). It's also connected to the IR
+J6: IO extension connector (note that a right-angle and a straight version exist)
+- (26) IO4
+- (29) IO5
+- (30) IO18
+- (31) IO19
+- (33) IO21
+- (35) IO0/GND depending on S2
+- (36) IO22
+- (37) IO23
+J7: on/off (on when floating/open)
+- GND
+- ENable ==> short with pin 1/GND to switch off 3.3V power
+J8: Input/Sensor connector (inputs only, no internal pull-up)
+- (5) IO39
+- (4) IO36
+S2: select J6 pin 6 between GND and IO0
 
 <img width="646" height="847" alt="схема" src="https://github.com/user-attachments/assets/27e11e97-68fa-4fcd-a073-10f5dd3af368" />
 
