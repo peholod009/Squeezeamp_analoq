@@ -128,11 +128,11 @@ J8: Input/Sensor connector (inputs only, no internal pull-up)
 
 S2: select J6 pin 6 between GND and IO0
 
-Верхняя часть платы:
+# Верхняя часть платы:
 
 <img width="600" height="387" alt="TOP" src="https://github.com/user-attachments/assets/39c3300a-0d19-42f3-b561-77f5af521304" />
 
-Нижняя часть платы:
+# Нижняя часть платы:
 
 <img width="600" height="387" alt="BOTTOM" src="https://github.com/user-attachments/assets/8ada5987-19d2-4c6e-ab8d-8222a224ad99" />
 
