@@ -1,4 +1,4 @@
-ТЕХНИЧЕСКОЕ ЗАДАНИЕ на разработку аудио-энпойнта "SqueezeESP32"
+#ТЕХНИЧЕСКОЕ ЗАДАНИЕ на разработку аудио-энпойнта "SqueezeESP32"
 
 Референсная плата - SqueezeAMP (https://github.com/philippe44/SqueezeAMP)
 
